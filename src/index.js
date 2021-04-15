@@ -15,7 +15,6 @@ hbs.registerPartials(partialsPath)
 
 app.get('', (req, res) => {
     res.render('index')
-    // res.send('Hello world')
 })
 
 app.listen(3000)
