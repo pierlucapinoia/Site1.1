@@ -21,4 +21,8 @@ app.get('/home', (req, res) => {
     res.render('home')
 })
 
+app.get('/maps', (req, res) => {
+    res.render('maps')
+})
+
 app.listen(3000)
